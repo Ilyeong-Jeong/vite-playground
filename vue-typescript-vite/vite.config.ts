@@ -20,4 +20,11 @@ export default defineConfig({
     // Configure CORS for the dev server (Type: boolean | CorsOptions)
     // cors: true,
   },
+  // Build Options
+  build: {
+    // 최종 번들된 파일의 호환이 되는 브라우저 설정 (default: 'modules' => Vite special value)
+    // target: 'modules',
+    // 빌드 결과 경로 설정  
+    // outDir: 'dist',
+  },
 })
