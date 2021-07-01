@@ -9,6 +9,10 @@ export default defineConfig({
   mode: 'development',
   // 참고 https://vitejs.dev/guide/api-plugin.html#conventions
   plugins: [vue()],
+  resolve: {
+    // 디렉토리 또는 패키지 alias 지정
+    alias: [{ find: '@/', replacement: '/src/' }],
+  },
   // Server Options
   server: {
     // IP 주소를 지정 (default: '127.0.0.1')
