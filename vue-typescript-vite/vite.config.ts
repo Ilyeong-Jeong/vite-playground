@@ -30,5 +30,7 @@ export default defineConfig({
     // target: 'modules',
     // 빌드 결과 경로 설정  
     // outDir: 'dist',
+    // rollup 번들 옵션 사용자 지정
+    // rollupOptions: {}
   },
 })
